@@ -53,6 +53,7 @@ $route['default_controller'] = 'index';
 $route['productos'] = 'productos/index';
 $route['detallesp'] = 'detallesp/index';
 $route['contacto'] = 'contacto/index';
+$route['carrito'] = 'carrito/index';
 $route['nosotros'] = 'nosotros/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

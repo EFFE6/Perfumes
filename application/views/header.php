@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	<title>PERFUSCORP</title>
+	<title>IMPERIAL ESSENCE</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="<?php echo base_url('/assets/images/icons/favicon.png '); ?>" />
+	<link rel="icon" type="image/png" href="<?php echo base_url('/assets/images/icons/1.png '); ?>" />
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('vendor/bootstrap/css/bootstrap.min.css'); ?>">
 	<!--===============================================================================================-->
@@ -50,21 +50,7 @@
 					</div>
 
 					<div class="right-top-bar flex-w h-full">
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							Help & FAQs
-						</a>
 
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							My Account
-						</a>
-
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							EN
-						</a>
-
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							USD
-						</a>
 					</div>
 				</div>
 			</div>
@@ -74,7 +60,7 @@
 
 					<!-- Logo desktop -->
 					<a href="<?php echo site_url('index'); ?>" class="logo">
-						<img src="<?php echo base_url(); ?>/assets/images/icons/logo-01.png" alt="IMG-LOGO">
+						<img src="<?php echo base_url(); ?>/assets/images/icons/2.png" alt="IMG-LOGO">
 					</a>
 
 					<!-- Menu desktop -->
@@ -82,20 +68,12 @@
 						<ul class="main-menu">
 							<li class="active-menu">
 								<a href="<?php echo site_url('index'); ?>">Inicio</a>
-								
+
 							</li>
 
 							<li>
 								<a href="<?php echo site_url('productos'); ?>">Tienda</a>
 
-							</li>
-
-							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.html">Features</a>
-							</li>
-
-							<li>
-								<a href="blog.html">Blog</a>
 							</li>
 
 							<li>
@@ -134,7 +112,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->
 			<div class="logo-mobile">
-				<a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+				<a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/icons/2.png" alt="IMG-LOGO"></a>
 			</div>
 			<!-- Icon header -->
 			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
@@ -152,7 +130,7 @@
 			</div>
 			<!-- Button show menu -->
 			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-				<span class="hamburger-box">	
+				<span class="hamburger-box">
 					<span class="hamburger-inner"></span>
 				</span>
 			</div>
@@ -160,7 +138,7 @@
 
 		<!-- Menu Mobile -->
 		<div class="menu-mobile">
-			<ul class="topbar-mobile">	
+			<ul class="topbar-mobile">
 				<li>
 					<div class="left-top-bar">
 						Free shipping for standard order over $100
@@ -190,35 +168,22 @@
 
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.html">Home</a>
-					<ul class="sub-menu-m">
-						<li><a href="index.html">Homepage 1</a></li>
-						<li><a href="home-02.html">Homepage 2</a></li>
-						<li><a href="home-03.html">Homepage 3</a></li>
-					</ul>
+					<a href="<?php echo site_url('index'); ?>">Inicio</a>
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
 					</span>
 				</li>
 
 				<li>
-					<a href="product.html">Shop</a>
+					<a href="<?php echo site_url('productos'); ?>">Tienda</a>
 				</li>
 
 				<li>
-					<a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
+					<a href="<?php echo site_url('nosotros'); ?>">Nosotros</a>
 				</li>
 
 				<li>
-					<a href="blog.html">Blog</a>
-				</li>
-
-				<li>
-					<a href="about.html">About</a>
-				</li>
-
-				<li>
-					<a href="contact.html">Contact</a>
+					<a href="<?php echo site_url('contacto'); ?>">Contactanos</a>
 				</li>
 			</ul>
 		</div>
